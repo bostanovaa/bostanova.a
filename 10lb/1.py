@@ -1,0 +1,6 @@
+set1 = set(input("Введите элементы первого множества, разделенные пробелом: ").split())
+set2 = set(input("Введите элементы второго множества, разделенные пробелом: ").split())
+unique_numbers = set1.union(set2)
+print("Различные числа в этих множествах:", unique_numbers)
+common_numbers = sorted(set1.intersection(set2))
+print("Числа, которые входят и в первое, и во второе множество, в порядке возрастания:", common_numbers)
